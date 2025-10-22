@@ -1241,7 +1241,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d29e9dc0c08c39649acaedf62e2533eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 0}
+  prefab: {fileID: 320861816760757727, guid: 017c62828d1aa78469b2d8a27e97b664, type: 3}
   shootSpeed: 10
   bulletlifetime: 2
   shootDelay: 0.5
@@ -1555,7 +1555,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4959681664981772477, guid: fbb0444b3f31b4a48a38bc59fa972127, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4959681664981772477, guid: fbb0444b3f31b4a48a38bc59fa972127, type: 3}
       propertyPath: m_LocalScale.y
@@ -1605,14 +1605,6 @@ PrefabInstance:
       propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8953640080839865154, guid: fbb0444b3f31b4a48a38bc59fa972127, type: 3}
-      propertyPath: m_Type
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8953640080839865154, guid: fbb0444b3f31b4a48a38bc59fa972127, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -1589915369, guid: 343ecbd545bfc9f499c4230e56ca371d, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

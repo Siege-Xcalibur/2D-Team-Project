@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - Coin
   - cash
+  - Fire1
   layers:
   - Default
   - TransparentFX
