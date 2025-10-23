@@ -9,6 +9,7 @@ TagManager:
   - Coin
   - cash
   - Fire1
+  - PlayerBullet
   layers:
   - Default
   - TransparentFX
