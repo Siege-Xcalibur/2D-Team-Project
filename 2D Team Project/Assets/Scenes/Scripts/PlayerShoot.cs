@@ -31,7 +31,7 @@ public class PlayerShoot : MonoBehaviour
             //reset out timer
             timer = 0;
             //get the mouse's position in the game
-            Vector3 mousePos=Input.mousePosition;
+            Vector3 mousePos= new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0);
             mousePos = Camera.main.ScreenToWorldPoint(mousePos);
             Debug.Log(mousePos);
             mousePos.z = 0;
