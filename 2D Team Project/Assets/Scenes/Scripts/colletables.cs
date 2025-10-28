@@ -7,7 +7,7 @@ using TMPro;
 public class colletables : MonoBehaviour
 {
     //store the number of collected items in a variable
-    public int cash = 0;
+    public int cash= 0;
     public TMP_Text text;
     //whenever the player collide with an object, see if it is a collectable
     //if it is a collectable, add to the count
