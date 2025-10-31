@@ -794,7 +794,7 @@ MonoBehaviour:
   health: 5
   dropChance: 100
   prefab: {fileID: 4849108089484242271, guid: c5914e7707c68b5459235e71857fb79f, type: 3}
-  isDead: 0
+  isDead: 1
 --- !u!95 &268982523
 Animator:
   serializedVersion: 5
