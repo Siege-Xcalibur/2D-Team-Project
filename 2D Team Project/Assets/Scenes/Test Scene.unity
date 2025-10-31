@@ -794,6 +794,7 @@ MonoBehaviour:
   health: 5
   dropChance: 100
   prefab: {fileID: 4849108089484242271, guid: c5914e7707c68b5459235e71857fb79f, type: 3}
+  isDead: 1
 --- !u!95 &268982523
 Animator:
   serializedVersion: 5
@@ -804,7 +805,7 @@ Animator:
   m_GameObject: {fileID: 268982515}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4f28f8baa4899b54189d605fd2a1dc99, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
