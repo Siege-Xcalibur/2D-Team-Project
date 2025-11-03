@@ -394,7 +394,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 320861816760757727, guid: 017c62828d1aa78469b2d8a27e97b664, type: 3}
-  shootSpeed: 10
+  shootSpeed: 3
   bulletlifetime: 2
   shootDelay: 0.5
 --- !u!95 &467787174
@@ -666,7 +666,7 @@ Transform:
   m_GameObject: {fileID: 641790667}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.05, y: -2.4, z: 0}
+  m_LocalPosition: {x: -0.8, y: -2.61, z: 0}
   m_LocalScale: {x: 6.178113, y: 5.5000944, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9221,7 +9221,7 @@ Transform:
   m_GameObject: {fileID: 1464608748}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 26.67, y: -3.85, z: 0}
+  m_LocalPosition: {x: 24.32, y: -20.94, z: 0}
   m_LocalScale: {x: 4.21292, y: 2.88431, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
