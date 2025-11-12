@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class PlatformerAnimControls : MonoBehaviour
 {
+    Animator animator;
+    SpriteRenderer SPR;
     // Start is called before the first frame update
     void Start()
     {
-        
+       animator= GetComponent<Animator>(); 
+        SPR = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -15,17 +18,17 @@ public class PlatformerAnimControls : MonoBehaviour
     {
         float moveX = Input.GetAxis("Horizontal");
         float moveY = GetComponent<Rigidbody2D>().velocity.y;
-        GetComponent<Animator>().SetFloat("x",moveX);
-        GetComponent<Animator>().SetFloat("y",moveY);
+        animator.SetFloat("x",moveX);
+        animator.SetFloat("y",moveY);
        if(moveX < 0)
         {
-            //we're moving to the lfet
+            //we're moving to the left
             //flip our sprite
-            GetComponent<SpriteRenderer>().flipX = true;
+            SPR.flipX = true;
         }
        else if(moveX > 0)
         {
-            GetComponent<SpriteRenderer>().flipX = false;
+            SPR.flipX = false;
         }
     }
 }

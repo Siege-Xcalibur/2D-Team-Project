@@ -10,6 +10,8 @@ public class EnemyShoot : MonoBehaviour
     public float shootDelay = 0.5f;
     float timer = 0;
     GameObject player;
+    AudioSource audiosource;
+    public AudioClip EnemyShootSound;
     //the distance the player needs to be for us to shoot at them
     public float shootTriggerDistance = 5;
     // Start is called before the first frame update
@@ -25,6 +27,10 @@ public class EnemyShoot : MonoBehaviour
         Vector3 shootDir = player.transform.position - transform.position;
         if (shootDir.magnitude < shootTriggerDistance && timer > shootDelay)
         {
+            if (audiosource != null && EnemyShootSound != null)
+            {
+             audiosource.PlayOneShot(EnemyShootSound);
+            }
             //shoot towards the player
             timer = 0;
             GameObject bullet = Instantiate(prefab, transform.position, Quaternion.identity);
