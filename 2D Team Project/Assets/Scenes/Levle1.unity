@@ -572,6 +572,7 @@ MonoBehaviour:
   shootSpeed: 10
   bulletlifetime: 2
   shootDelay: 0.5
+  ShootSound: {fileID: 0}
 --- !u!95 &467787174
 Animator:
   serializedVersion: 5
@@ -823,6 +824,7 @@ MonoBehaviour:
   shootSpeed: 10
   bulletlifetime: 2
   shootDelay: 0.5
+  EnemyShootSound: {fileID: 0}
   shootTriggerDistance: 3
 --- !u!114 &522837020
 MonoBehaviour:
@@ -1369,6 +1371,7 @@ MonoBehaviour:
   shootSpeed: 10
   bulletlifetime: 2
   shootDelay: 0.5
+  EnemyShootSound: {fileID: 0}
   shootTriggerDistance: 3
 --- !u!114 &806326445
 MonoBehaviour:
@@ -2037,6 +2040,7 @@ MonoBehaviour:
   shootSpeed: 10
   bulletlifetime: 2
   shootDelay: 0.5
+  EnemyShootSound: {fileID: 0}
   shootTriggerDistance: 3
 --- !u!114 &1225024105
 MonoBehaviour:
@@ -36140,6 +36144,7 @@ MonoBehaviour:
   shootSpeed: 10
   bulletlifetime: 2
   shootDelay: 0.5
+  EnemyShootSound: {fileID: 0}
   shootTriggerDistance: 3
 --- !u!114 &1464608751
 MonoBehaviour:
