@@ -875,6 +875,7 @@ MonoBehaviour:
   shootSpeed: 10
   bulletlifetime: 2
   shootDelay: 0.5
+  EnemyShootSound: {fileID: 0}
   shootTriggerDistance: 5
 --- !u!114 &268982522
 MonoBehaviour:
@@ -9413,7 +9414,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8e3764f00043c6468bdc0bad32b0bf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DamageSound: {fileID: 0}
+  DamageSound: {fileID: 8300000, guid: a55529a11cb21ec45bbfccba9a6d70d7, type: 3}
   health: 5
   healthBar: {fileID: 1846231393}
 --- !u!114 &1888581262
