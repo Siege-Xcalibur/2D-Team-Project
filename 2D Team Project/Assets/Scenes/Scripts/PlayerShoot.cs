@@ -9,10 +9,12 @@ public class PlayerShoot : MonoBehaviour
     public float bulletlifetime = 2f;
     public float shootDelay = 0.5f;
     float timer = 0;
+    AudioSource audiosource;
+    public AudioClip ShootSound;
     // Start is called before the first frame update
     void Start()
     {
-        
+      audiosource = Camera.main.GetComponent<AudioSource>();  
     }
 
     // Update is called once per frame
@@ -28,6 +30,10 @@ public class PlayerShoot : MonoBehaviour
         //if we press the shoot "button" (left click)
         if(Input.GetButton("Fire1") && timer > shootDelay)
         {
+            if (audiosource != null && ShootSound != null)
+            {
+                audiosource.PlayOneShot(ShootSound);
+            }
             //reset out timer
             timer = 0;
             //get the mouse's position in the game
